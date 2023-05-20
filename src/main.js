@@ -15,7 +15,7 @@ let config ={
             debugStaticBodyColor: 0x000000
         }
     },
-    scene: [Scene1]
+    scene: [Intro, Scene1]
 };
 
 let game = new Phaser.Game(config);
