@@ -7,7 +7,7 @@ class Scene1 extends Phaser.Scene
 
     preload()
     {
-        this.load.image("ruleboard", "../assets/ruleboard.png");
+        this.load.image("ruleboard", "./assets/ruleboard.png");
     }
     create ()
     {
